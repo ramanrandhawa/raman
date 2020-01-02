@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:id="@+id/placement_linear"
+    >
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="15dp"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@color/cardview_light_background"
+            >
+
+            <ImageView
+                android:layout_marginTop="5dp"
+                android:id="@+id/placement_img"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:scaleType="fitXY"
+                />
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/placement_img"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:text="Name:"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:id="@+id/placement_name"
+                />
+
+
+
+
+            <TextView
+                android:textColor="@android:color/black"
+               android:layout_toRightOf="@+id/placement_name"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:id="@+id/placement_txtsname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/placement_img"
+                android:layout_below="@+id/placement_txtsname"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:text="Company:"
+                android:textSize="15dp"
+                android:textStyle="bold"
+                android:id="@+id/placement_companyname"
+                />
+
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_toRightOf="@+id/placement_companyname"
+                android:layout_below="@+id/placement_txtsname"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:id="@+id/placement_company"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/placement_img"
+                android:layout_below="@+id/placement_companyname"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:text="Package:"
+                android:textSize="15dp"
+                android:id="@+id/placement_package"
+                />
+
+
+            <TextView
+                android:textColor="@android:color/black"
+                android:layout_toRightOf="@+id/placement_package"
+                android:layout_below="@+id/placement_company"
+                android:layout_marginLeft="25dp"
+                android:layout_marginTop="10dp"
+                android:textSize="15dp"
+                android:id="@+id/placement_packag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+
+
+
+
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+</LinearLayout>

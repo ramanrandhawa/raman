@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.banglore.computer.bce.googlesignin">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/sign_img"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/txt_iso"
+        android:src="@drawable/bcelogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp" />
+
+
+
+
+    <TextView
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:id="@+id/sign_txt2"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:text="Banglore Computer Education"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+<TextView
+    android:textColor="@color/colorPrimaryDark"
+    android:layout_below="@id/sign_txt2"
+    android:id="@+id/txt_iso"
+    android:textStyle="italic"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:text="(ISO 9001-2008 Certified)"
+    />
+
+
+
+    <Button
+        android:textColor="@android:color/white"
+        android:background="@drawable/home_img"
+        android:text="Sign in with Google"
+        android:textSize="20dp"
+        android:textAllCaps="false"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/sign_img"
+        android:layout_marginTop="80dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/btnsignin"
+        />
+
+
+    <!--<com.google.android.gms.common.SignInButton-->
+        <!--android:layout_below="@+id/sign_img"-->
+       <!--android:layout_marginTop="80dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:id="@+id/signin"-->
+        <!--android:layout_width="250dp"-->
+        <!--android:layout_height="wrap_content"></com.google.android.gms.common.SignInButton>-->
+
+
+
+</RelativeLayout>

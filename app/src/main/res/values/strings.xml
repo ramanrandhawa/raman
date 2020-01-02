@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Banglore Computer Edu.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Sign out</string>
+    <string name="title_activity_direction">Map</string>
+    <string name="title_activity_locate">Map</string>
+    <string name="title_activity_locationbce">Map</string>
+    <string name="title_activity_locatebce">Map</string>
+    <string name="title_activity_maplocate">Map</string>
+    <string name="title_activity_location">Map</string>
+</resources>

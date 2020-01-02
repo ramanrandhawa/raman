@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+<item
+    android:id="@+id/nav_tech"
+    android:icon="@drawable/redlaptop"
+    android:title="Technologies" />
+        <item
+            android:id="@+id/nav_placements"
+            android:icon="@drawable/manwithcompany"
+            android:title="Placements" />
+
+        <item
+            android:id="@+id/nav_batches"
+            android:icon="@drawable/teacherpointingblackboard"
+            android:title="New Batches" />
+
+        <item
+            android:id="@+id/nav_real"
+            android:icon="@drawable/redbook"
+            android:title="Real Java" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/redgallery"
+            android:title="Gallery" />
+
+
+        <item
+            android:id="@+id/nav_buyjava"
+            android:icon="@drawable/redcart"
+            android:title="Buy Real Java" />
+
+        <item
+            android:id="@+id/nav_question"
+            android:icon="@drawable/redinterview"
+            android:title="Interview Questions" />
+
+
+        <item
+            android:id="@+id/nav_query"
+            android:icon="@drawable/redquery"
+            android:title="Query" />
+
+
+
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/redloc"
+            android:title="Location" />
+
+
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/telephone"
+            android:title="Contact" />
+
+
+
+        <item
+            android:id="@+id/nav_aboutus"
+            android:icon="@drawable/redabout"
+            android:title="Know your Trainer" />
+
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/redlog"
+                android:title="Logout" />
+
+    </group>
+
+
+</menu>

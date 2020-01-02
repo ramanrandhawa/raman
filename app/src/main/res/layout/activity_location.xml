@@ -1,0 +1,48 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/locate_linear"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<android.support.design.widget.AppBarLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content">
+<android.support.v7.widget.Toolbar
+    android:id="@+id/locate_toolbar"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+</android.support.v7.widget.Toolbar>
+</android.support.design.widget.AppBarLayout>
+<LinearLayout
+android:layout_width="match_parent"
+android:orientation="horizontal"
+android:padding="5dp"
+android:layout_height="wrap_content">
+<TextView
+    android:id="@+id/locate_address"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="15dp"
+    android:textStyle="bold"
+    android:textColor="@android:color/holo_red_light"
+    android:text="Address: "
+    />
+<TextView
+    android:id="@+id/address"
+    android:textSize="15dp"
+    android:paddingLeft="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Om Complex, Near Ghora Chowk, Ajit Road Bathinda(Punjab) Pin 151001"
+    android:textStyle="bold"
+    android:textColor="@android:color/black"
+    />
+</LinearLayout>
+<fragment xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.banglore.computer.bce.location" />
+    </LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "84799488449",
+    "firebase_url": "https://appbce-2824d.firebaseio.com",
+    "project_id": "appbce-2824d",
+    "storage_bucket": "appbce-2824d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:84799488449:android:f75f1534edd2feab",
+        "android_client_info": {
+          "package_name": "com.banglore.computer.bce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "84799488449-mvva6f28kv3hseebrqsv7cfh0vffvtkj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.banglore.computer.bce",
+            "certificate_hash": "f933e889ea815a24c906f64f655ae068e5d8b5f7"
+          }
+        },
+        {
+          "client_id": "84799488449-vro8p3krs0kgq19au2au9un3l54t5snd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARl60M51-LOzUEar1spmqNVnb5j6gFeFs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "84799488449-vro8p3krs0kgq19au2au9un3l54t5snd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

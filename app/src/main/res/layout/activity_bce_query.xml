@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical"
+    tools:context="com.banglore.computer.bce.bce_query">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/appbar">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/query_toolbar"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+       android:src="@drawable/qy"
+        android:layout_marginBottom="25dp"
+        android:layout_marginTop="25dp"
+        />
+
+    <LinearLayout
+        android:layout_margin="11dp"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/makeicon"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:padding="5dp"
+           android:hint="Enter name"
+            android:background="@color/danger"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="11dp"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/makeicon"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:padding="5dp"
+            android:inputType="number"
+            android:background="@color/danger"
+            android:id="@+id/edt_mobile"
+            android:ems="10"
+            android:layout_width="match_parent"
+            android:hint="Enter mobile number"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_margin="11dp"
+        android:padding="2dp"
+        android:layout_width="match_parent"
+        android:background="@drawable/makeicon"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:padding="5dp"
+            android:background="@color/danger"
+            android:id="@+id/edt_query"
+            android:layout_width="match_parent"
+            android:gravity="top|left"
+            android:lines="5"
+            android:inputType="textMultiLine"
+            android:hint="Enter your query"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+<!--<android.support.design.widget.TextInputLayout-->
+    <!--android:id="@+id/input_name"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_marginTop="40dp"-->
+    <!--app:errorEnabled="true"-->
+    <!--app:errorTextAppearance="@style/TextAppearence.App.TextInputLayout"-->
+    <!--android:layout_marginLeft="10dp"-->
+    <!--app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"-->
+    <!--android:layout_marginBottom="10dp"-->
+    <!--android:layout_marginRight="10dp"-->
+    <!--android:layout_height="wrap_content">-->
+
+    <!--<EditText-->
+        <!--android:id="@+id/inputlayout_name"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:hint="Enter your name"-->
+        <!--/>-->
+
+
+
+<!--</android.support.design.widget.TextInputLayout>-->
+
+
+    <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:id="@+id/input_mobile"-->
+        <!--android:layout_width="match_parent"-->
+        <!--app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"-->
+        <!--android:layout_margin="10dp"-->
+        <!--app:errorTextAppearance="@style/TextAppearence.App.TextInputLayout"-->
+        <!--app:errorEnabled="true"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/inputlayout_mobile"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="Mobile Number"-->
+            <!--android:textColorHint="@color/colorPrimaryDark"-->
+            <!--/>-->
+
+
+
+    <!--</android.support.design.widget.TextInputLayout>-->
+
+    <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:id="@+id/input_query"-->
+        <!--android:layout_width="match_parent"-->
+        <!--app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"-->
+        <!--android:layout_margin="10dp"-->
+        <!--app:errorEnabled="true"-->
+        <!--app:errorTextAppearance="@style/TextAppearence.App.TextInputLayout"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<EditText-->
+            <!--android:id="@+id/inputlayout_query"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="Query"-->
+            <!--android:textColorHint="@color/colorPrimaryDark"-->
+            <!--/>-->
+
+
+
+    <!--</android.support.design.widget.TextInputLayout>-->
+<Button
+    android:layout_margin="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:text="Submit"
+    android:id="@+id/btn_submit"
+    android:onClick="dosubmit"
+    android:textColor="@android:color/white"
+    android:background="@drawable/button_shape"
+    />
+
+</LinearLayout>

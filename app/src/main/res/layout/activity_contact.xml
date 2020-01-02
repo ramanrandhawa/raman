@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/lightgrey"
+    tools:context="com.banglore.computer.bce.contact">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/appbar">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/contact_toolbar"
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content">
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <ImageView
+        android:layout_margin="5dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/bcelogo"
+        android:layout_gravity="center"
+        />
+
+       <WebView
+           android:id="@+id/contact_web"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+
+       </WebView>
+<Button
+    android:onClick="docall"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/imgnavheader"
+    android:textColor="@android:color/white"
+    android:text="Call  us"
+    />
+
+</LinearLayout>

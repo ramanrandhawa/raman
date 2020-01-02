@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="@color/danger"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:background="@color/danger"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="2"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="3dp"
+            android:paddingTop="5dp"
+            android:id="@+id/question_txt"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            />
+
+
+
+    </RelativeLayout>
+
+
+
+</android.support.v7.widget.CardView>
+<!--<TextView android:layout_width="match_parent"-->
+    <!--android:layout_height="35dp"-->
+    <!--android:textColor="@android:color/black"-->
+    <!--android:lines="2"-->
+    <!--android:id="@+id/question_txt"-->
+    <!--android:textStyle="bold"-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--</TextView>-->
